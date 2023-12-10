@@ -1,0 +1,55 @@
+:root {
+  --body-color: rgb(168, 183, 197);
+  --red-color: #ff0000;
+  --green-color: #008000;
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--body-color);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* palestine flag style */
+.title {
+  text-align: center;
+  margin-left: 1.6rem;
+  margin-top: 3rem;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid var(--red-color);
+  transform: rotate(90deg);
+}
+
+.flag {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.left {
+  margin-right: -74px;
+}
+span {
+  display: block;
+  height: 33px;
+  width: 200px;
+}
+
+.black {
+  background: var(--black-color);
+}
+.white {
+  background: var(--white-color);
+}
+.green {
+  background: var(--green-color);
+}
